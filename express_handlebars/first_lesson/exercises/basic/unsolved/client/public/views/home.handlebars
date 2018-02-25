@@ -1,0 +1,33 @@
+<link rel="stylesheet" type="text/css" href="./public/css/home.css">
+<script src="./public/js/home.js"></script>
+
+<div class="container">
+	<h1>Users</h1>
+	<table class="table">
+		<tr>
+			<th>Name</th>
+			<th>Occupation</th>
+			<th>Age</th>
+			<th>Bald?</th>
+		</tr>
+		<!-- 
+			append the data to the table body here
+			
+			When looping through the array, each index is represented by 'this'
+
+			an example of looping through an array through handlebars
+
+			array on server side 
+			var whatever = ['hello', 'goodbye'];
+
+			res.render('home', {data: whatever})
+			'home' is represented by home.handlebars here
+
+			looping on client side
+			{{#each data}}
+				<span>{{this}}</span>
+			{{/each}}
+
+		-->
+	</table>
+</div>

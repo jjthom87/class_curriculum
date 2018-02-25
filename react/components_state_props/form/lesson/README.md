@@ -1,0 +1,24 @@
+# React Form Component Importing
+
+* This is an example of how to have a form in one file and then be imported and called in another file.
+* The main files are in the components folder.
+* Run the app
+	* Open up one terminal and run ```npm start```
+	* Open up another terminal and run ```webpack -w```
+* Submit the form, and look at the console log
+* We are saving the results of the submitted form in the state
+	* If you are confused about state, then please view the ```state``` folder
+
+# Example React App
+
+1. Look at how the dots connect through the folder structure
+2. You see how we use ```import``` instead of ```require```, that's babel at work
+	* https://babeljs.io/
+	* With react, there is a different way of writing javascript
+3. As you can see, we are able to write the javascript & html together
+4. Another difference with React is the routes are declared on the client side, not the server side.
+5. Look at the ```routes.js``` file, and then look at that route being imported into the ```app.js``` file. 
+6. Look at this line in the app.js ```document.getElementById('app')```. This is connecting to the ```app class``` in the index.html file in the public folder.
+7. As you can tell, you only need that line in the html for all of the react ui to work.
+8. The bundle.js is automatically created through the webpack.
+	* When your ui is updated, the bundle is updated.

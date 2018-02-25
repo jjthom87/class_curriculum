@@ -1,0 +1,23 @@
+{
+  "name": "office_quotes_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nycda-wdi-jared/office_quotes_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nycda-wdi-jared/office_quotes_api/issues"
+  },
+  "homepage": "https://github.com/nycda-wdi-jared/office_quotes_api#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
